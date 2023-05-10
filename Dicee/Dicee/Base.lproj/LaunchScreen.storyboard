@@ -20,8 +20,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Code by mohammadgdz" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cob-Ri-GoM">
-                                <rect key="frame" x="16" y="276" width="361" height="300"/>
-                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="41"/>
+                                <rect key="frame" x="62" y="413" width="269" height="26"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Light" family="Copperplate" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" systemColor="labelColor"/>
@@ -30,15 +30,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <constraints>
-                            <constraint firstItem="cob-Ri-GoM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="217" id="0B3-PO-cdj"/>
-                            <constraint firstItem="cob-Ri-GoM" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="CKq-05-eLt"/>
-                            <constraint firstAttribute="bottom" secondItem="rU8-Qd-RVx" secondAttribute="bottom" id="Kae-ih-vRW"/>
-                            <constraint firstItem="cob-Ri-GoM" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="N8A-y1-ekf"/>
-                            <constraint firstItem="rU8-Qd-RVx" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="R1w-pm-Jwd"/>
-                            <constraint firstItem="rU8-Qd-RVx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="U54-Jm-9rT"/>
-                            <constraint firstItem="rU8-Qd-RVx" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="l5n-3s-wh5"/>
-                            <constraint firstItem="cob-Ri-GoM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="u1B-J9-BNC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cob-Ri-GoM" secondAttribute="trailing" constant="16" id="x6J-Uu-9Ns"/>
+                            <constraint firstItem="rU8-Qd-RVx" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="DP2-Ad-ct5"/>
+                            <constraint firstAttribute="bottom" secondItem="rU8-Qd-RVx" secondAttribute="bottom" id="Jyn-n7-8hS"/>
+                            <constraint firstItem="cob-Ri-GoM" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gST-YR-inU"/>
+                            <constraint firstItem="rU8-Qd-RVx" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="sCF-v0-I1d"/>
+                            <constraint firstItem="rU8-Qd-RVx" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="wvp-fj-i7n"/>
+                            <constraint firstItem="cob-Ri-GoM" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="wwL-om-PWp"/>
                         </constraints>
                     </view>
                 </viewController>
